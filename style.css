@@ -2,11 +2,6 @@
     margin: 0;
     padding: 0;
 }
-.gigant{
-    width: 100%;
-    height: 100%;
-    background-color: white;
-}
 .container{
     width: 1440px;
     height: 6750px;
@@ -22,9 +17,9 @@
     align-items: center;
 }
 nav img{
-Width:124px;
-Height:24px;
-padding-left: 40px;
+    Width:124px;
+    Height:24px;
+    padding-left: 40px;
 }
 nav ul{
     Width: 1000px;
@@ -55,6 +50,8 @@ nav .login{
     letter-spacing: 0%;
     text-align: center;
     margin-right: 30px;
+    cursor: pointer;
+    border-radius: 10px;
 }
 nav .start{
     width: 153px;
@@ -69,7 +66,7 @@ nav .start{
     letter-spacing: 0%;
     text-align: center;
     margin-right: 30px;
-
+    cursor: pointer;
 }
 .main{
     width: 1240px;
@@ -837,4 +834,32 @@ h6 button{
     height: 40px;
     border-radius: 20px;
     background: rgb(64, 153, 255);
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: #263238;
+    color: #ffffff;
+}
+
+footer .footer-copyright {
+    background-color: #37474f;
 }
