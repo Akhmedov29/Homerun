@@ -1,0 +1,840 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gigant{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.container{
+    width: 1440px;
+    height: 6750px;
+    background-color:  white;
+    margin: 0 auto;
+}
+.container nav{
+    width: 1440px;
+    height: 94px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav img{
+Width:124px;
+Height:24px;
+padding-left: 40px;
+}
+nav ul{
+    Width: 1000px;
+    Height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-left: 200px;
+    list-style: none;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-size: 20pxpx;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+nav .login{
+    width: 94px;
+    height: 54px;
+    box-sizing: border-box;
+    border: 2px solid rgb(248, 244, 244);
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-right: 30px;
+}
+nav .start{
+    width: 153px;
+    height: 54px;
+    border-radius: 8px;
+    background-color: rgb(0, 153, 255);
+    border: none;
+    font-family: "Roboto",sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-right: 30px;
+
+}
+.main{
+    width: 1240px;
+    height: 620px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.main h1{
+    width: 893px;
+    color: rgba(14, 16, 22, 0.95);
+    font-family: "Roboto",sans-serif;
+    font-size: 120px;
+    font-weight: 400;
+    line-height: 110px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+    
+}
+.main p{
+    color: rgb(53, 57, 63);
+    font-family: "Roboto",sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26,4px;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.main img{
+    width: 1180px;
+    height: 178px;
+    padding-top: 45px;
+
+}
+.howtowor{
+    width: 860px;
+    height: 691.89px;
+    background-color: white;
+    margin: 120px auto;
+
+}
+.howtowor h3{
+    color: black;
+    font-family:  "Roboto",sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    padding-top: 10px;
+}
+.howtowor img{
+    width: 860px;
+    height: 486px;
+    padding-top: 60px;
+}
+.info{
+    width: 1240px;
+    height: 606px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.infol{
+    width: 483.33px;
+    height: 509px;
+}
+.infol h5{
+    width: 61px;
+    height: 36px;
+    color: green;
+    font-family:  "Roboto",sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.infol h3{
+    padding-top: 15px;
+    width: 369px;
+    height: 192px;
+    font-family:  "Roboto",sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-align: left;
+
+}
+.infol p{
+    padding-top: 25px;
+    width: 392px;
+    font-family:  "Roboto",sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.8px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.infol button{
+    width: 136px;
+    height: 54px;
+    box-sizing: border-box;
+    border: 2px solid rgb(248, 244, 244);
+    border-radius: 8px;
+    color: rgb(51, 51, 51);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center; 
+    margin: 25px;
+    cursor: pointer;
+}
+.infor{
+    width: 676.66px;
+    height: 456.3px;
+    
+}
+.infor img{
+    width: 676.66px;
+    height: 456.3px;
+}
+.info2{
+    width: 1160px;
+    height: 546.3px;
+    left: 40px;
+    top: 40.19px;
+    background-color: white;
+    margin:0 auto ;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info2l img{
+    width: 677px;
+    height: 382px;
+    margin-left: 40px;    
+}
+.info2r{
+    margin-left: 40px;
+    margin-right: 42px;
+}
+.info2r h5{
+color: rgb(254, 193, 4);
+font-family: "Roboto",sans-serif;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.info2r h3{
+color: rgba(14, 16, 22, 0.95);
+font-family: "Roboto",sans-serif;
+font-size: 57px;
+font-weight: 700;
+line-height: 63.8px;
+letter-spacing: 1.5px;
+text-align: left;
+}
+.info2r p{
+color: rgba(14, 16, 22, 0.95);
+font-family: Roboto;
+font-size: 22px;
+font-weight: 400;
+line-height: 30.8px;
+letter-spacing: 0%;
+text-align: left;
+}
+.info2r button{
+    width: 136px;
+    height: 54px;
+    box-sizing: border-box;
+    border: 2px solid rgb(248, 244, 244);
+    border-radius: 8px;
+    margin-top: 26px;
+    cursor: pointer;
+}
+.info3{
+    width: 1240px;
+    height: 1107px;
+    margin: 0 auto;
+    background: url(image\ copy\ 5.png);
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.info3t{
+    width: 100%;
+    height: 487px;
+}
+.info3t img{
+width: 80px;
+height: 80px;
+padding-left: 580px;
+padding-top: 70px;
+}
+.info3t h1{
+color: rgb(255, 255, 255);
+font-family: "Roboto",sans-serif;
+font-size: 56px;
+font-weight: 700;
+line-height: 63.8px;
+letter-spacing: 1.5px;
+text-align: center;
+padding-top: 24px;
+}
+.info3t p{
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 22px;
+font-weight: 400;
+line-height: 30.8px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 25px;
+}
+.p2{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.8px;
+    letter-spacing: 0%;
+    padding-top: 30px;
+}
+.info3t button{
+    width: 213px;
+    height: 54px;
+    box-sizing: border-box;
+    border: 2px solid rgb(248, 244, 244);
+    border-radius: 8px;
+    margin-left: 514px;
+    color: black;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+}
+.info3b{
+width: 1160px;
+height: 520px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.info3bl img{
+    width: 580px;
+    height: 520px; 
+    padding-left: 40px;
+}
+.info3br{
+    width: 580px;
+    height: 520px;
+    border-radius: 0px 20px 20px 0px;
+    background: rgb(0, 6, 57);
+}
+.info3br img{
+    width: 129px;
+    height: 24px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.info3br h5{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+.p1{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.8px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 21px;
+}
+.p2{
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 22px;
+font-weight: 400;
+line-height: 30.8px;
+letter-spacing: 0%;
+text-align: left;
+padding-left: 40px;
+}
+.info3br button{
+    width: 212px;
+    height: 54px;
+    box-sizing: border-box;
+    border: 2px solid rgb(248, 244, 244);
+    border-radius: 8px;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 66px;
+    cursor: pointer;
+}
+.info4{
+    width: 1240px;
+    height: 974px;
+    background: url(image\ copy\ 9.png);
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.info4t{
+    width: 1240px;
+    height: 489px;
+}
+.info4t h1{
+    width: 428px;
+    height: 64px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 63.8px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    padding-top: 116px;
+    padding-left: 413px;
+}
+.info4t h2{
+    width: 708px;
+    height: 64px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 63.8px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    padding-left: 273px;
+}
+.a{
+    color: rgb(244, 243, 243);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.8px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 24px;
+}
+.b{
+    color: rgb(244, 243, 243);
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.8px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.info4t button{
+    width: 212px;
+    height: 51px;
+    border-radius: 8px;
+    background: rgb(0, 153, 255);
+    margin-left: 514px;
+    margin-top: 69px;
+    cursor: pointer;
+}
+.info4b img{
+    width: 1240px;
+    height: 465px;
+}
+.info5{
+    width: 1240px;
+    height: 504px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info5l{
+    width: 620px;
+    height: 401px;
+}
+.img1{
+    width: 157px;
+    height: 34px;
+    padding-left: 232px;
+    padding-top: 39.52px;
+}
+.info5l h1{
+    width: 124px;
+    height: 115px;
+    color: rgba(14, 16, 22, 0.95);
+    font-family: Roboto;
+    font-size: 82px;
+    font-weight: 700;
+    line-height: 114.8px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 248px;
+}
+.img2{
+    width: 285px;
+    height: 47px;
+    padding-left: 168px;
+}
+.info5l h2{
+    width: 254px;
+    height: 28px;
+    color: rgba(14, 16, 22, 0.95);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 183px;
+    padding-top: 25px;
+}
+.info5l h3{
+    width: 218px;
+    height: 28px;
+    color: rgba(14, 16, 22, 0.95);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 201px;
+}
+.info5r{
+    width: 620px;
+    height: 404px;
+}
+.imga{
+    width: 160px;
+    height: 44px;
+    padding-left: 230px;
+    padding-top: 39,52px;
+}
+.info5r h1{
+    width: 254px;
+    height: 115px;
+    color: rgba(14, 16, 22, 0.95);
+    font-family: Roboto;
+    font-size: 82px;
+    font-weight: 700;
+    line-height: 114.8px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 183px;
+}
+.imgb{
+    width: 115px;
+    height: 60px;
+    color: rgba(14, 16, 22, 0.95);
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 253px;
+}
+.info5r h4{
+    width: 220px;
+    height: 28px;
+    color: rgba(14, 16, 22, 0.95);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 200px;
+}
+.info5r h5{
+    width: 263px;
+    height: 28px;
+    color: rgba(14, 16, 22, 0.95);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 179px;
+}
+.info6{
+    width: 1240px;
+    height: 601px;
+    background: url(image\ copy\ 15.png);
+    border-radius: 20px;
+    background: rgb(60, 169, 255);
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.ichki img{
+    width: 200px;
+    height: 200px;
+    padding-left: 520px;
+    padding-top: 60px;
+}
+.ichki h1{
+    width: 394px;
+    height: 64px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 63.8px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    padding-left: 427px;
+}
+.ichki h2{
+    width: 556px;
+    height: 64px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 63.8px;
+    letter-spacing: 1.5px;
+    text-align: center;
+    padding-left: 351px;
+}
+.ichki button{
+    width: 153px;
+    height: 51px;
+    border-radius: 8px;
+    background: rgb(14, 16, 22);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 544px;
+    margin-top: 25px;
+    border-radius: 8px;
+    background: rgb(14, 16, 22);
+    cursor: pointer;
+}
+.p{
+    width: 460px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+.p p{
+    width: 171px;
+    height: 24px;
+}
+.info7{
+    width: 1240px;
+    height: 560px;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.95);
+    margin-top: 60px;
+}
+.in{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bir{
+    width: 222.39px;
+    height: 480px;
+}
+.bir h5{
+    width: 69px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 25px;
+}
+.bir h4{
+    width: 37px;
+    height: 26px;
+    color: rgb(12, 159, 100);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 25px;
+}
+.bir h3{
+    width: 60px;
+    height: 26px;
+    color: rgb(254, 193, 4);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 25px;
+}
+.bir h6{
+    color: grey;
+    font-size: 17px;
+    padding-top: 25px;
+}
+.ikki{
+    width: 333.59px;
+    height: 480px;
+}
+.ikki h5{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 25px;
+}
+.ikki h6{
+    color: rgb(119, 130, 145);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 19px;
+}
+h6 button{
+    width: 42px;
+    height: 23px;
+    border-radius: 15px;
+    background: rgb(246, 71, 117);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.uch{
+    width: 222.39px;
+    height: 480px;
+}
+.uch h5{
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 19px;
+}
+.uch h6{
+    color: rgb(119, 130, 145);
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.2px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 19px;
+}
+.button{
+    width: 22px;
+    height: 22px;
+    border-radius: 10px;
+}
+.turt{
+    width: 333.59px;
+    height: 480px;
+}
+.turt h3{
+    height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 19px;
+}
+.turt p{
+    width: 307px;
+    height: 84px;
+    color: rgb(119, 130, 145);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-top: 19px;
+}
+.e{
+    width: 230px;
+    height: 40px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgba(119, 130, 145,)
+}
+.s{
+    width: 78px;
+    height: 40px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(89, 93, 104);
+}
+.logotip{
+    width: 333.59px;
+    height: 60px;
+}
+.insta{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: rgb(205, 72, 107);
+}
+.birbalo{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: rgb(0, 123, 182);
+}
+.twitter{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: rgb(64, 153, 255);
+}
